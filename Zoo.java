@@ -31,7 +31,12 @@ public class Zoo
             if (a instanceof Runnable) {
                 System.out.println("    This animal can run: "+((Runnable) a).run());
             }
-               
+            if (a instanceof Swimmable) {
+                System.out.println("    This animal can swim: "+((Swimmable) a).swim());
+            }
+            if (a instanceof Flyable) {
+                System.out.println("    This animal can fly: "+((Flyable) a).fly());
+            }
         }
         
     }

@@ -23,7 +23,7 @@ public abstract class Animal
     
     // **** TASK 1
     // ** Write abstract method eat.  It returns String
-    pub
+    public abstract String eat();
 
 
 
