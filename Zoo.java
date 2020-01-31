@@ -21,17 +21,19 @@ public class Zoo
         */
         // Populate our zoo
         animals.add(new FlyingHippo("Flying Hippo"));
-        animals.add(new Bird("Mr. Kim"));
-        animals.add(new ExtraTerrestial("Blue"));
-       	animals.add(new PolarAirBear("Jojo Kewa"));
-       	animals.add(new WoofDog("Rex"));
-       	animals.add(new IntelligentMouse("Nezu"));
-       	animals.add(new FlyingHedgehog("VLee"));
+        animals.add(new Bird("Bird"));
+        animals.add(new ExtraTerrestial("Extra Terrestial Animal"));
+       	animals.add(new PolarAirBear("Polar Air Bear"));
+       	animals.add(new WoofDog("Woof Dog"));
+       	animals.add(new IntelligentMouse("Intelligent Mouse"));
+       	animals.add(new FlyingHedgehog("Flying Hedgehog"));
         
         for (Animal a : animals)
         {
-            System.out.println(" *** Let's visit "+a.getName());
-            System.out.println("     *** Let us watch "+a.getName()+" eat : "+a.eat());
+            // please insert "the" if you are using the animal name,
+            // not the real name
+            System.out.println(" *** Let's visit the "+a.getName());
+            System.out.println("     *** Let us watch the "+a.getName()+" eat : "+a.eat());
            
             
             // Task 2.  Create the Swimmable Interface

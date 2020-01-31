@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PolarAirBear
+comment1.params=
+comment1.target=PolarAirBear()
+comment2.params=name
+comment2.target=PolarAirBear(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ eat()
+comment4.params=
+comment4.target=java.lang.String\ fly()
+comment5.params=
+comment5.target=java.lang.String\ swim()
+numComments=6

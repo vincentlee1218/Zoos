@@ -8,6 +8,7 @@ public class Bird extends Animal implements Runnable, Flyable {
 	/**
 	 * Constructor for objects of class Bird
 	 */
+	public Bird() { super("Mr. Kim"); }
 	public Bird(String name) { super(name); }
 	
 	// ** Implement eat() from Animal
